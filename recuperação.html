@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conta</title>
+
+    <style>
+        .box {
+            width: 400px;
+            height: 250px;
+            padding: 10px;
+            border: solid 2px black;
+            background-color: #c7c7c7;
+        }
+
+    </style>
 </head>
-<body> <center>
-    <h2>Redefinir a senha</h2>
-    <h7>Você receberá um e-mail para redefinir a senha</h7><br><br>
 
-    <label for="email">E-mail:</label>
-    <input type="email" name="Email" placeholder="E-mail" required><br><br>
+<body>
+    <br>
+   <center>
+        <div class="box">
+            
+            <h2>Redefinir a senha</h2><br>
+            <h7>Você receberá um e-mail para redefinir a senha</h7><br><br>
 
-    <input type="submit" value="Enviar"> <br><br>
-    <button type="reset">Cancelar</button>
-    
-</center></body>
+            <label for="email">E-mail:</label>
+            <input type="email" name="Email" placeholder="E-mail" required><br><br><br>
+
+            <input type="submit" value="Enviar"> 
+            <a href="cadastro.html"><button type="reset">Cancelar</button></a>
+        </div>
+</body>
+
 </html>
