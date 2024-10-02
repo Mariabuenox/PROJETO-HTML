@@ -9,49 +9,10 @@
     <link rel="icon" href="./img/logo.ico">
 </head>
 <style>
-    body{
+    body {
         text-decoration: none;
         font-family: Arial;
-    }
-    
-    
-    #cards{
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        padding: 20px;
-        flex-wrap: wrap;
-        height: 300px;
-    }
-    
-    .card {
-        background-color: whitesmoke;
-        border: solid 1px #ddd;
-        border-radius: 5px;
-        margin: 10px;
-        padding: 20px;
-        text-align: center;
-        align-self:stretch;
-        flex: content;
-        box-sizing: border-box;
-        transition: transform 0.3s, box-shadow 0.3s;
-    
-    }
-    
-    .card img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 5px;
-    }
-    
-    .card:hover{
-        transform: scale(1.05);
-        box-shadow: 0 4px 8px #c6c6c6;
-    }
-
-    h1 {
-        position: absolute;
-        margin: 20px 0 0 50px;
+        margin: 0;
     }
 
     header {
@@ -79,36 +40,16 @@
         align-items: center;
         height: 50vh;
         margin: 0;
-    
+
     }
 
-    .container img{
+    .container img {
         width: 98%;
     }
 
     .texto-direita {
         margin: 0 0 0px 30px;
         text-align: right;
-
-
-    }
-
-    label {
-        justify-content: flex-end;
-        display: flex;
-        place-items: center;
-    }
-
-    input {
-        border-radius: 5px;
-        width: 300px;
-        height: 2em;
-        margin: 30px 10px;
-    }
-
-    body {
-        font-family: Arial;
-        margin: 0;
     }
 
     nav {
@@ -141,6 +82,60 @@
     nav ul li a:hover {
         background-color: #86c2fa;
     }
+
+    #cards {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: whitesmoke;
+        border: solid 1px #ddd;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 20px;
+        flex: 1;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        width: 200px;
+
+    }
+
+    .card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    h1 {
+        position: absolute;
+        margin: 20px 0 0 50px;
+    }
+
+    label {
+        justify-content: flex-end;
+        display: flex;
+        place-items: center;
+        
+    }
+
+    label a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    label a:hover{
+        text-decoration: underline;
+    }
+
+    input {
+        border-radius: 5px;
+        width: 300px;
+        height: 2em;
+        margin: 30px 10px;
+    }
 </style>
 
 <body>
@@ -157,9 +152,9 @@
             <input type="text" name="pesquisar" placeholder="Pesquisar" required>
 
             <img src="./img/icone.jpg" width="20px">
-            <img src="./img/download.png" width="20px">
+            <a href="carrinho.html"><img src="./img/download.png" width="20px"></a>
 
-            Entre/Cadastre-se
+            <a href="cadastro.html">Entre/Cadastre-se</a>
         </label>
 
     </div>
@@ -177,9 +172,9 @@
     </nav><br>
 
     <div class="container">
-        <img src="./img/1920x400_semanadocliente_07092024_41c719fd-2c56-4c40-956b-a8d23de4cbe2.webp">
-    </div><br>
-    <section id="#cards"></section>
+        <a href="paginaprodutos.html"><img src="./img/1920x400_semanadocliente_07092024_41c719fd-2c56-4c40-956b-a8d23de4cbe2.webp"></a>
+    </div>
+    <section id="cards">
         <div class="card">
             <img src="./img/img.entrega.webp" alt="Imagem 1" class="imagem" width="50px">
             <h2 style="margin-bottom: 0;">entrega garantida</h2>

@@ -17,6 +17,9 @@ header {
 }
 
 .carrinho {
+    display: flex;
+    justify-content: space-between;  
+    place-items: center;
     border: solid 2px #858484;
     border-radius: 5px;
     background-color: #f2f1f1;
@@ -25,15 +28,9 @@ header {
     padding: 10px;
 }
 
-.carrinho h3 {
-    position: absolute;
-
-}
-
 .carrinho p {
     text-align: right;
 }
-
 
 .resumo {
     border: solid 2px #626262;
