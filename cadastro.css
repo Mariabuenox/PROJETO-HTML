@@ -1,0 +1,37 @@
+* {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    border: solid 2px black;
+    background-color: #f2f1f1;
+    margin: auto;
+
+}
+
+.center {
+align-items: end;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 25px;
+margin: 30px 0;
+}
+
+.center input{
+    margin: 0 30px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+footer{
+   text-align: center;
+   gap: 70px;
+}

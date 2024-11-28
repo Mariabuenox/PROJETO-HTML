@@ -1,228 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Artesanato em Foco</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
+
+    <link rel="stylesheet" href="pginicial.css">
     <link rel="icon" href="./img/logo.ico">
 </head>
-<style>
-    body {
-        text-decoration: none;
-        font-family: Arial;
-        margin: 0;
-    }
 
-    header {
-        background-color: aqua;
-        justify-content: center;
-        display: flex;
-        justify-content: space-around;
-        place-items: center;
-    }
-
-header img{
-    width: 7%;
-}
-
-    header h1{
-background-color: #61b3ff;
-        color: #ffffff;
-        height: 1em;
-        display: none;
-        position: fixed;
-        text-align: center;
-       /* align-self: center;*/
-    }
-    
-    header label{
-        display: flex;
-        justify-content: space-around;
-
-    }
-
-    footer {
-        background-color: #61b3ff;
-        text-align: center;
-        padding: 10px;
-        position: relative;
-        bottom: 0;
-        width: 100%;
-    }
-
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50vh;
-        margin: 0;
-
-    }
-
-    .container img {
-        width: 98%;
-    }
-
- /*   .texto-direita {
-        margin: 0 0 0px 30px;
-        text-align: right;
-    }*/
-
-    nav {
-        background-color: #389fff;
-        padding: 10px;
-        height: 40px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
-
-    nav ul li {
-        margin: 0 15px;
-    }
-
-    nav ul li a {
-        color: #ffffff;
-        text-decoration: none;
-        padding: 10px 15px;
-        display: block;
-    }
-
-    nav ul li a:hover {
-        background-color: #86c2fa;
-    }
-
-    #cards {
-        display: flex;
-        justify-content: space-around;
-        padding: 20px;
-        flex-wrap: wrap;
-    }
-
-    .card {
-        background-color: whitesmoke;
-        border: solid 1px #ddd;
-        border-radius: 5px;
-        margin: 10px;
-        padding: 20px;
-        flex: 1;
-        text-align: center;
-        transition: transform 0.3s, box-shadow 0.3s;
-        width: 200px;
-
-    }
-
-    .card img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 5px;
-    }
-
-    h1 {
-        position: absolute;
-        margin: 20px 0 0 50px;
-    }
-
-    label {
-        justify-content: flex-end;
-        display: flex;
-        place-items: center;
-        
-    }
-
-    label a {
-        text-decoration: none;
-        color: #000;
-    }
-
-    label a:hover{
-        text-decoration: underline;
-    }
-
-    input {
-        border-radius: 5px;
-        width: 300px;
-        height: 2em;
-        margin: 30px 10px;
-    }
-</style>
 
 <body>
+
+
     <header>
-       <h1><strong>Parcele 12x no Cartão</strong></h1>
+        <div class="htop">
+            <h1>Parcele em 12x no Cartão</h1>
+        </div>
 
-        <img src="./img/logo.ico" width="20%">
 
-            <label> 
-                <label for="pesquisar"></label>
-                <input type="text" name="pesquisar" placeholder="Pesquisar" required>
-    
-                <img src="./img/icone.jpg" width="20px">
-                <a href="carrinho.html"><img src="./img/download.png" width="20px"></a>
-    
-                <a href="cadastro.html">Entre/Cadastre-se</a>
+        <div class="hcenter">
+            <img src="./image/Artesanto Em Foco.png" id="icone">
+
+
+            <label for="Pesquisar">
+                <input type="text" name="Pesquisar" placeholder="Pesquisar" width="700px">
             </label>
-    
-<!-- 
+
+            <a href="carrinho.html"><img src="image/carrinho.png" id="iconeCarrinho"></a>
+            <img src="image/user.png" id="iconeUser">
+
+
+            <a href="cadastro.html">Entre/Cadastre-se</a>
+
+
+        </div>
+
         <nav>
             <ul>
-                <li><a href="#bordado">Bordado</a></li>
-                <li><a href="#croche">Crochê & Tricô</a></li>
-                <li><a href="#tecidos">Tecidos</a></li>
-                <li><a href="#papelaria">Papelaria</a></li>
-                <li><a href="#casa">Casa & Decoração</a></li>
-                <li><a href="#contato">Pintura</a></li>
-    
+                <li><a href="#Bordado">Bordado</a></li>
+                <li><a href="#Croche">Crochê & Tricô</a></li>
+                <li><a href="#Tecidos">Tecidos</a></li>
+                <li><a href="#Pepelaria">Papelaria</a></li>
+                <li><a href="#Decoração">Decoração</a></li>
+                <li><a href="#Pintura">Pintura</a></li>
             </ul>
         </nav>
--->  
     </header>
 
-    <br>
+    <img src="./image/banner.webp" width="100%">
 
-    <div class="container">
-        <a href="paginaprodutos.html"><img src="./img/1920x400_semanadocliente_07092024_41c719fd-2c56-4c40-956b-a8d23de4cbe2.webp"></a>
-    </div>
-    <section id="cards">
-        <div class="card">
-            <img src="./img/img.entrega.webp" alt="Imagem 1" class="imagem" width="50px">
-            <h2 style="margin-bottom: 0;">entrega garantida</h2>
+    <section id="cards1">
+        <div class="card1">
+            <img src="./image/entrega.webp" class="imagem" width="50px">
+            <h2 style="margin-bottom: 0;">Entrega Garantida</h2>
             <p>para todo Brasil</p>
         </div>
 
-        <div class="card">
-            <img src="./img/image (3).png" alt="Imagem 2" class="imagem" width="50px">
-            <h2 style="margin-bottom: 0;">Pague parcelado</h2>
-            <p>até 6x no crédito</p>
+        <div class="card1">
+            <img src="./image/cartão.png" class="imagem" width="50px">
+            <h2 style="margin-bottom: 0;">Pague Parcelado</h2>
+            <p>até 12x no crédito</p>
         </div>
 
-        <div class="card">
-            <img src="./img/img.carinho.webp" alt="Imagem 3" class="Imagem" width="50px">
-            <h2 style="margin-bottom: 0;">Loja 100% segura</h2>
+        <div class="card1">
+            <img src="./image/carrinho2.webp" class="Imagem" width="50px">
+            <h2 style="margin-bottom: 0;">Loja 100% Segura</h2>
             <p> seus dados protegidos</p>
         </div>
 
-        <div class="card">
-            <img src="./img/entrega-50-50-px.webp" alt="Imagem 4" class="imagem" width="50px">
-            <h2 style="margin-bottom: 0;">Envio imediato</h2>
+        <div class="card1">
+            <img src="./image/correio.webp" class="imagem" width="50px">
+            <h2 style="margin-bottom: 0;">Envio Imediato</h2>
             <p>(consulte localidades)</p>
         </div>
     </section>
 
+    <h1>Destaques</h1>
+    <h3>Os Mais Vendidos Estão Aqui:</h3>
+
+    <section id="cards">
+        <div class="card">
+            <img src="./image/costura.webp" width="93%" alt="Descrição da imagem">
+            <h4>Linha para Costura Drima - Cx com 100 Unidades</h4>
+            <p>299,90</p>
+            <a href="carrinho.html"><input type="button" value="Adicionar"></a>
+        </div>
+        <div class="card">
+            <img src="./image/linha.png.jpg" alt="Descrição da imagem">
+            <h4>Linha Anchor Perlé <br>85m</h4>
+            <p>9,90</p>
+            <a href="carrinho.html"><input type="button" value="Adicionar"></a>
+        </div>
+        <div class="card">
+            <img src="./image/la1.png" alt="Descrição da imagem">
+            <h4>Lã Cisne Premium <br>100g</h4>
+            <p>14,99</p>
+            <a href="carrinho.html"><input type="button" value="Adicionar"></a>
+        </div>
+        <div class="card">
+            <img src="./image/pincel.png" alt="Descrição da imagem">
+            <h4>Pincel Condor 415 Redondo</h4>
+            <h4></h4>
+            <p>8,60</p>
+            <a href="carrinho.html"><input type="button" value="Adicionar"></a>
+        </div>
+        <div class="card">
+            <img src="./image/tinta.png" alt="Descrição da imagem">
+            <h4>Tinta para Tecido Fosca Acrilex 37ml</h4>
+            <p>5,90</p>
+            <a href="carrinho.html"><input type="button" value="Adicionar"></a>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Artesanato em Foco. Todos os direitos reservados.</p>
+        <div class="footercenter">
+            <label for="cadastro">
+                <input type="text" name="cadastro" placeholder="digite seu email" width="90%">
+            </label>
+        </div>
+
+
+
+
+        <!-- <div class="footerend">
+            <p>&copy; 2024 Artesanato em Foco. Todos os direitos reservados.</p>
+        </div>-->
     </footer>
+
+
 </body>
 
-</html>
 
-<!--Pedro-->
+</html>
