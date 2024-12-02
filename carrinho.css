@@ -113,17 +113,13 @@ nav ul li a:hover {
 .carrinho {
     display: flex;
     justify-content: space-between;  
-    place-items: center;
+    align-items: center;
     border: solid 2px #858484;
     border-radius: 5px;
     background-color: #f2f1f1;
     width: 55%;
     height: 50px;
     padding: 10px;
-}
-
-.carrinho p {
-    text-align: right;
 }
 
 .resumo {
@@ -142,7 +138,7 @@ nav ul li a:hover {
 }
 
 .resumo input{
-    width: 300px;
+    width: 90%;
     height: 2rem;
     color: #ffffff;
     background-color: #61b3ff;
