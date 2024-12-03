@@ -1,11 +1,14 @@
-body {
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    text-decoration: none;
-    cursor: url(/img/cursor.cur);
 }
 
+body {
+    margin: 0;
+}
 
+h1 {
+    border-bottom: solid 4px #008cff;
+}
 
 header {
     display: flex;
@@ -46,14 +49,14 @@ header {
     height: 2rem;
 }
 
-.hcenter label input{
+.hcenter label input {
     width: 400px;
     border-radius: 5px;
     height: 1.7rem;
 }
 
 
-.hcenter a{
+.hcenter a {
     text-decoration: none;
     color: #000000;
     font-size: 1.2em;
@@ -106,58 +109,8 @@ nav ul li a:hover {
     background-color: #008cff;
 }
 
-
-#cards1 {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    flex-wrap: wrap;
-}
-
-.card1 {
-    background-color: whitesmoke;
-    border: solid 1px #ddd;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 20px;
-    flex: 1;
-    text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
-    width: 200px;
-
-}
-
-.card1 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-footer{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    background-color: #bf3838; /* teste */
-    border-bottom: 1px solid #ddd;
-
-}
-
-.footercenter{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2px;
-}
-
-.footercenter label{
-    width: 70%;
-}
-
-.footerend {
-    background-color: #fee25c;
-    text-align: center;
-    padding: 5px;
-    bottom: 0;
+section {
+    margin: 0px 50px;
 }
 
 #cards {
@@ -166,8 +119,6 @@ footer{
     flex-direction: row;
     padding: 20px;
     flex-wrap: wrap;
-
-
 }
 
 .card {
@@ -179,7 +130,7 @@ footer{
     text-align: center;
     align-self: stretch;
     flex: content;
-    box-sizing:content-box;
+    box-sizing: content-box;
     transition: transform 0.3s, box-shadow 0.3s;
     flex-basis: 10px;
 }
@@ -190,29 +141,20 @@ footer{
     border-radius: 5px;
 }
 
-.card input{
+.card input {
     width: 170px;
     height: 2.3em;
     color: #ffffff;
     background-color: #008cff;
     border-radius: 5px;
     border: none;
-    
 }
 
-.card input:hover{
+.card input:hover {
     background: #4668f3;
 }
 
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px #c6c6c6;
-}
-
-h4{
-    font-size: 0.95em;
-}
-
-h1 , h3{
-   margin: 15px 30px;
 }
