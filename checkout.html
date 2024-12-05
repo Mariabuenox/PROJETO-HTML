@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+
+    <link href="checkout.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="hcenter">
+            <img src="./image/Artesanto_Em_Foco-removebg-preview.png" id="icone">
+
+
+            <label for="Pesquisar">
+                <input type="text" name="Pesquisar" placeholder="Pesquisar" width="700px">
+            </label>
+
+            <a href="carrinho.html"><img src="image/carrinho.png" id="iconeCarrinho"></a>
+            <img src="image/user.png" id="iconeUser">
+
+
+            <a href="cadastro.html">Entre/Cadastre-se</a>
+
+
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#Bordado">Bordado</a></li>
+                <li><a href="#Croche">Crochê & Tricô</a></li>
+                <li><a href="#Tecidos">Tecidos</a></li>
+                <li><a href="#Pepelaria">Papelaria</a></li>
+                <li><a href="#Decoração">Decoração</a></li>
+                <li><a href="#Pintura">Pintura</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <h2>Checkout</h2>
+
+        <div class="checkout">
+            <div class="items-description">
+                <h3>Produtos</h3>
+
+                <ul>
+                    <li>
+                        <div class="list-item">
+                            <div class="product-item-description">
+                                <img src="/image/pincel.png" width="64px" alt="Imagem Produto" />
+                                <div>
+                                    <p class="product-title">Pincel Condor 415 Redondo</p>
+                                    <p>R$ 8,60</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <div class="product-item-description">
+                                <img src="/image/la1.png" width="64px" alt="Imagem Produto" />
+                                <div>
+                                    <p class="product-title">Linha Anchor Perlé
+                                        85m</p>
+                                    <p>R$ 9,90</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <div class="product-item-description">
+                                <img src="/image/tinta.png" width="64px" alt="Imagem Produto" />
+                                <div>
+                                    <p class="product-title">Tinta para Tecido Fosca Acrilex 37ml</p>
+                                    <p>R$ 5,90</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <div class="product-item-description">
+                                <img src="/image/linha.png.jpg" width="64px" alt="Imagem Produto" />
+                                <div>
+                                    <p class="product-title">Linha para Costura Drima - Cx com 100 Unidades</p>
+                                    <p>R$ 299,00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="details">
+                <div class="resume">
+                    <h3>Resumo</h3>
+
+                    <ul>
+                        <li>
+                            <div class="list-item">
+                                <div class="key-value-item">
+                                    <p>Produtos</p>
+                                    <small>R$ 323,40</small>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-item">
+                                <div class="key-value-item">
+                                    <p>Frete</p>
+                                    <small>R$ 24,99</small>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-item">
+                                <div class="key-value-item">
+                                    <p>Total</p>
+                                    <small>R$ 348,39</small>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="delivery-options">
+                    <h3>Entrega</h3>
+                    <p>Selecione o seu Endereço:</p>
+
+                    <div class="form-container">
+
+                    </div>
+
+                    <input type="button" value="Novo Endereço" />
+
+                </div>
+
+                <div class="payment">
+                    <h3>Método de Pagamento</h3>
+
+                    <div class="form-container">
+                        <form action="/checkout.html">
+                            <ul>
+                                <li>
+                                    <input type="radio" id="pix" name="payment-method" value="Pix" />
+                                    <label for="pix">Pix</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="credit-card" name="payment-method"
+                                        value="Cartão de Crédito" />
+                                    <label for="credit-card">Cartão de Crédito</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="ticket" name="payment-method" value="Boleto" />
+                                    <label for="ticket">Boleto</label>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+
+                    <input type="button" value="Ir para Pagamento" />
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footerend">
+            <p>&copy; 2024 Artesanato em Foco. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
