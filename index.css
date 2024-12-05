@@ -5,17 +5,13 @@ body {
     cursor: url(/img/cursor.cur);
 }
 
-
-
 header {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     background-color: #ffffff;
     border-bottom: 1px solid #ddd;
-
 }
-
 
 .hcenter {
     display: flex;
