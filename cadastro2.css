@@ -5,7 +5,7 @@
 
 :root {
     --cor-primaria: #008cff;
-    --cor-secundaria: #ffad60;
+    --cor-secundaria: #36fb00;
     --cor-terciaria: #ffffff;
     --cor-quaternaria: #ffffff;
 }
@@ -21,7 +21,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url();
 }
 
 h2 {
@@ -29,6 +28,7 @@ h2 {
     font-size: 50px;
     display: flex;
     justify-content: center;
+    width: 150%;
 }
 
 section {

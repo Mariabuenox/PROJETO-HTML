@@ -12,23 +12,31 @@
 
 <body>
     <div class="box">
-        <h2>Cadastro</h2>
+        <img src="./image/Artesanto_Em_Foco-removebg-preview.png" alt="">
         <form action="./paginainicial.html">
-            <input type="text" placeholder="Nome completo:" name="nomecompleto" required>
 
-            <input type="text" placeholder="CPF:" minlength="1" maxlength="14" required>
+            <label for="nomecompleto" >Nome completo:</label>
+            <input type="text" name="nomecompleto" required>
 
-            <input type="text" name="email" placeholder="E-mail:" required>
+            <label for="CPF">CPF:</label>
+            <input type="text" minlength="1" maxlength="14" required>
 
-            <input type="text" name="confirmaremail" placeholder="Confirmar e-mail:" required>
+            <label for="Email">Email:</label>
+            <input type="text" name="email" required>
 
-            <input type="tel" name="telefone" placeholder="Telefone:" minlength="1" maxlength="14">
-
-            <input type="password" placeholder="Senha:" name="password" minlength="6" required>
+            <label for="confirmaremail">Confirmar Email:</label>
+            <input type="text" name="confirmaremail" required>
+            
+            <label for="Telefone">Telefone:</label>
+            <input type="tel" name="telefone"  minlength="1" maxlength="14">
+            
+            <label for="Senha">Senha:</label>
+            <input type="password" name="password" minlength="6" required>
 
             <div class="footerBox">
                 <input type="submit" value="Cadastrar" id="buttonEnvio">
-                <a href="recuperação.html">Esqueceu a sua senha?</a>
+                <input type="checkbox" name="lembre_de_mim" id="lembre_de_mim">
+                <label for="lembre_de_mim">Lembre de mim</label>
             </div>
         </form>
     </div>
