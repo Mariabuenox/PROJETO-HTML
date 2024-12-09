@@ -12,36 +12,31 @@ h1 {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     background-color: #ffffff;
     border-bottom: 1px solid #ddd;
 
 }
 
-
 .hcenter {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 2px;
+    gap: 3px;
 }
-
 
 .hcenter #icone {
     width: 7.3rem;
     height: 7.3rem;
     border-radius: 2rem;
-    margin-right: 60%;
-}
+    gap: 10px;
 
+}
 
 .hcenter #iconeUser {
     width: 2rem;
     height: 2rem;
-
 }
-
 
 .hcenter #iconeCarrinho {
     width: 2rem;
@@ -58,7 +53,7 @@ header {
 .hcenter a {
     text-decoration: none;
     color: #000000;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 header h1 {
@@ -131,7 +126,9 @@ section {
     flex: content;
     box-sizing: content-box;
     transition: transform 0.3s, box-shadow 0.3s;
-    flex-basis: 20px;
+    flex-basis: 18%;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .card img {
@@ -161,4 +158,46 @@ section {
 h4 {
     font-weight: normal;
     font-size: 0.95em;
+}
+
+@media screen and (max-width: 480px) {
+    header .hcenter {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
+
+@media screen and (min-with: 481px) and (max-width: 768px) {
+    header .hcenter {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    header .hcenter {
+        font-size: 36;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    section {
+        padding: 20px;
+    }
 }
