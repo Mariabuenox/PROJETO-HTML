@@ -22,24 +22,14 @@ header {
 .hcenter {
     display: flex;
     align-items: center;
-<<<<<<< HEAD
-    gap: 3px;
-=======
     gap: 2px;
-    place-items: center;
->>>>>>> Paginainicial
 }
 
 .hcenter #icone {
     width: 7.3rem;
     height: 7.3rem;
     border-radius: 2rem;
-<<<<<<< HEAD
     gap: 10px;
-=======
-    row-gap: 40%;
-}
->>>>>>> Paginainicial
 
 }
 
@@ -136,13 +126,9 @@ section {
     flex: content;
     box-sizing: content-box;
     transition: transform 0.3s, box-shadow 0.3s;
-<<<<<<< HEAD
-    flex-basis: 18%;
+    flex-basis: 180px;
     flex-grow: 1;
     flex-shrink: 1;
-=======
-    flex-basis: 180px;
->>>>>>> Paginainicial
 }
 
 .card img {
@@ -171,51 +157,5 @@ section {
 
 h4 {
     font-weight: normal;
-<<<<<<< HEAD
-    font-size: 0.95em;
-}
-
-@media screen and (max-width: 480px) {
-    header .hcenter {
-        font-size: 24px;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    section {
-        padding: 10px;
-    }
-}
-
-@media screen and (min-with: 481px) and (max-width: 768px) {
-    header .hcenter {
-        font-size: 28px;
-    }
-
-    nav ul li {
-        margin: 0 10px;
-    }
-
-    section {
-        padding: 15px;
-    }
-}
-
-@media screen and (min-width: 769px) {
-    header .hcenter {
-        font-size: 36;
-    }
-
-    nav ul li {
-        margin: 0 20px;
-    }
-
-    section {
-        padding: 20px;
-    }
-=======
     font-size: 0.80em;
->>>>>>> Paginainicial
 }
