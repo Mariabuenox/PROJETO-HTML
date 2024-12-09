@@ -2,7 +2,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     text-decoration: none;
-    cursor: url(/img/cursor.cur);
 }
 
 header {
@@ -130,7 +129,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #fee25c;
+    background-color: #4668f3;
     text-align: center;
     padding: 5px;
     bottom: 0;
@@ -148,7 +147,6 @@ footer {
 
 .card {
     background-color: rgb(255, 255, 255);
-    border: solid 1px #b9b9b9;
     border-radius: 5px;
     margin: 10px;
     padding: 20px;
@@ -190,7 +188,7 @@ h4 {
 }
 
 h1 {
-    border-top: solid 2px #fee25c;
+    border-top: solid 2px #4668f3;
     padding: 0px 30px;
 }
 
