@@ -22,14 +22,24 @@ header {
 .hcenter {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     gap: 3px;
+=======
+    gap: 2px;
+    place-items: center;
+>>>>>>> Paginainicial
 }
 
 .hcenter #icone {
     width: 7.3rem;
     height: 7.3rem;
     border-radius: 2rem;
+<<<<<<< HEAD
     gap: 10px;
+=======
+    row-gap: 40%;
+}
+>>>>>>> Paginainicial
 
 }
 
@@ -47,6 +57,7 @@ header {
     width: 400px;
     border-radius: 5px;
     height: 1.7rem;
+    margin-left: 500px;
 }
 
 
@@ -111,13 +122,12 @@ section {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    padding: 20px;
+    padding: 5px;
     flex-wrap: wrap;
 }
 
 .card {
     background-color: rgb(255, 255, 255);
-    border: solid 1px #b9b9b9;
     border-radius: 7px;
     margin: 10px;
     padding: 20px;
@@ -126,9 +136,13 @@ section {
     flex: content;
     box-sizing: content-box;
     transition: transform 0.3s, box-shadow 0.3s;
+<<<<<<< HEAD
     flex-basis: 18%;
     flex-grow: 1;
     flex-shrink: 1;
+=======
+    flex-basis: 180px;
+>>>>>>> Paginainicial
 }
 
 .card img {
@@ -157,6 +171,7 @@ section {
 
 h4 {
     font-weight: normal;
+<<<<<<< HEAD
     font-size: 0.95em;
 }
 
@@ -200,4 +215,7 @@ h4 {
     section {
         padding: 20px;
     }
+=======
+    font-size: 0.80em;
+>>>>>>> Paginainicial
 }
