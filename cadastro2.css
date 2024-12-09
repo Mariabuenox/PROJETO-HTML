@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url(./src/font/montserrat/Montserrat-Regular.ttf);
+}
+
+:root {
+    --cor-primaria: #008cff;
+    --cor-secundaria: #ffad60;
+    --cor-terciaria: #ffffff;
+    --cor-quaternaria: #ffffff;
+}
+
+body {
+    color: white;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+}
+
+h2 {
+    margin: 2rem;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-color: var(--cor-primaria);
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: 5rem;
+    width: 30%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    /* margin-top: 1rem; */
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+
+}
+
+input {
+    font-size: 1em;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 0.7rem 1.9rem;
+    border: none;
+    border-radius: 0.8rem;
+}
+
+.entrar-cadastrar {
+    margin: 0 1rem;
+}
+
+.linhas {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.email,
+.senha {
+    margin-left: 3rem;
+    margin-bottom: 0.3rem;
+    align-self: flex-start;
+}
+
+#email,
+#senha {
+    width: 67%;
+}
+
+.entrar-cadastrar {
+    margin-top: 1rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cadastrar{
+    transition: transform 0.3s ease;
+}
+
+.cadastrar:hover{
+    transform: translateY(-5px);
+}
+
+.entrar{
+    transition: transform 0.3s ease;
+}
+
+.entrar:hover{
+    transform: translateY(-5px);
+}
+
+.cadastrar {
+    width: 60%;
+}
+
+.entrar {
+    width: 35%;
+    background-color: var(--cor-secundaria);
+    color: white;
+}
+
+.ou {
+    margin: 2rem 0;
+}
+
+.esqueci{
+    color: white;
+    text-decoration: none;
+}
+
+.esqueci:hover{
+    padding-bottom: 4px;
+    border-bottom: 2px solid white;
+}
+
+
+img {
+    width: 15%;
+    padding: 0 1rem;
+    transition: transform 0.3s ease;
+}
+
+img:hover{
+    transform: translateY(-5px);
+}

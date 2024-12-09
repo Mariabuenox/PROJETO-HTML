@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro2.css"
+    <title>LOGIN</title>
+</head>
+
+<body>
+    <header></header>
+
+    <section>
+        <h2>LOGIN</h2>
+        <form action="tela_inicial" method="post" id="formLogin"> <!--precisa pegar o endereço da tela de inicio-->
+            <div class="email">
+                <label for="email">Email:</label>
+            </div>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label class="senha" for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required>
+
+            <article class="linhas">
+                <div>
+                    <input type="checkbox" name="lembre_de_mim" id="lembre_de_mim">
+                    <label for="lembre_de_mim">Lembre de mim</label>
+                </div>
+
+                <p><a class="esqueci" href="esqueci_senha">Esqueci minha senha</a></p>
+                <!--precisa fazer a pagina de esqueci minha senha-->
+            </article>
+
+            <article class="entrar-cadastrar">
+                <input class="entrar" type="submit" value="Entrar">
+                <input class="cadastrar" type="submit" value="Cadastre-se">
+            </article>
+</body>
+
+</html>
