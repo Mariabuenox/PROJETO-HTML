@@ -22,9 +22,9 @@ header {
 
 .hcenter {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 2px;
+    place-items: center;
 }
 
 
@@ -32,7 +32,7 @@ header {
     width: 7.3rem;
     height: 7.3rem;
     border-radius: 2rem;
-    margin-right: 60%;
+    row-gap: 40%;
 }
 
 
@@ -52,13 +52,14 @@ header {
     width: 400px;
     border-radius: 5px;
     height: 1.7rem;
+    margin-left: 500px;
 }
 
 
 .hcenter a {
     text-decoration: none;
     color: #000000;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 header h1 {
@@ -116,13 +117,12 @@ section {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    padding: 20px;
+    padding: 5px;
     flex-wrap: wrap;
 }
 
 .card {
     background-color: rgb(255, 255, 255);
-    border: solid 1px #b9b9b9;
     border-radius: 7px;
     margin: 10px;
     padding: 20px;
@@ -131,7 +131,7 @@ section {
     flex: content;
     box-sizing: content-box;
     transition: transform 0.3s, box-shadow 0.3s;
-    flex-basis: 20px;
+    flex-basis: 180px;
 }
 
 .card img {
@@ -160,5 +160,5 @@ section {
 
 h4 {
     font-weight: normal;
-    font-size: 0.95em;
+    font-size: 0.80em;
 }
