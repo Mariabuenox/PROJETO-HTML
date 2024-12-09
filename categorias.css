@@ -31,11 +31,7 @@ header {
     width: 7.3rem;
     height: 7.3rem;
     border-radius: 2rem;
-<<<<<<< HEAD
     gap: 10px;
-=======
-}
->>>>>>> Paginainicial
 
 }
 
@@ -129,6 +125,7 @@ section {
     padding: 20px;
     text-align: center;
     align-self: stretch;
+
     flex: content;
     box-sizing: content-box;
     transition: transform 0.3s, box-shadow 0.3s;
