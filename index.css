@@ -180,19 +180,28 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+
 }
 
 .ftop {
     display: flex;
-    gap: 20px;
+    gap: 25px;
     background-color: #ffcc25;
-    font-size: 1.5rem;
     padding: 20px 15%;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.fmeadle {}
+.fmeadle {
+    display: flex;
+    padding: 20px 15%;
+    flex-direction: row;
+
+}
+
+.fmeadle ul li {
+    list-style-type: none;
+}
 
 .foend {
     background-color: #ffcc25;
@@ -201,10 +210,14 @@ footer {
     bottom: 0;
 }
 
-.ftop input{
+.ftop input {
     height: 40px;
     border: none;
     border-radius: 0.8rem;
+}
+
+.ftop label {
+    font-size: 1em;
 }
 
 #buttonCadastrar {
@@ -220,6 +233,12 @@ footer {
 #email {
     padding: 5px;
     width: 40%;
+    margin-left: 40px;
+
+}
+
+p{
+    font-size: 1.5rem;
 }
 
 h4 {
