@@ -129,7 +129,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #4668f3;
+    background-color: #ffcc25;
     text-align: center;
     padding: 5px;
     bottom: 0;
@@ -188,7 +188,7 @@ h4 {
 }
 
 h1 {
-    border-top: solid 2px #4668f3;
+    border-top: solid 2px #000000;
     padding: 0px 30px;
 }
 
