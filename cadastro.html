@@ -7,29 +7,38 @@
     <title>Identificação - Artesanato em Foco </title>
 
     <link rel="icon" href="./img/logo.ico">
-    <link rel="stylesheet" href="cadastro.css">
-
+    <link rel="stylesheet" href="./cadastro.css">
 </head>
 
 <body>
-    <br>
+    <div class="box">
+        <img src="./image/Artesanto_Em_Foco-removebg-preview.png" alt="">
+        <form action="./paginainicial.html">
 
-    <div class="container">
-        <h2>INICIAR SESSÃO</h2>
-        <div class="center">
-            <label for="email">E-mail:</label>
+            <label for="nomecompleto" >Nome completo:</label>
+            <input type="text" name="nomecompleto" required>
+
+            <label for="CPF">CPF:</label>
+            <input type="text" minlength="1" maxlength="14" required>
+
+            <label for="Email">Email:</label>
             <input type="text" name="email" required>
 
-            <label for="password">Crie uma senha:</label>
+            <label for="confirmaremail">Confirmar Email:</label>
+            <input type="text" name="confirmaremail" required>
+            
+            <label for="Telefone">Telefone:</label>
+            <input type="tel" name="telefone"  minlength="1" maxlength="14">
+            
+            <label for="Senha">Senha:</label>
             <input type="password" name="password" minlength="6" required>
-        </div>
 
-        <footer>
-            <a href="paginainicial.html"><input type="submit" value="Fazer Login"></a>
-            <br><br>
-            <a href="recuperação.html">Esqueci minha senha</a>
-        </footer>
-
+            <div class="footerBox">
+                <input type="submit" value="Cadastrar" id="buttonEnvio">
+                <input type="checkbox" name="lembre_de_mim" id="lembre_de_mim">
+                <label for="lembre_de_mim">Lembre de mim</label>
+            </div>
+        </form>
     </div>
 </body>
 

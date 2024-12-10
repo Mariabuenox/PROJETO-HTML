@@ -1,37 +1,76 @@
-* {
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(./depositphotos_309577822-stock-photo-craft-supplies-for-creative-handmade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 30%;
+    height: 90%;
+    border-radius: 2rem;
+    background-color: #008cff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.box img {
+    max-width: 200px;
+    max-height: 170px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input {
+    margin-top: 0.9rem;
+    width: 40%;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    border: none;
+}
+
+.box a {
     text-decoration: none;
-    color: black;
+    color: rgb(10, 6, 249);
 }
 
-.container {
-    width: 400px;
-    height: 250px;
-    padding: 10px;
-    border: solid 2px black;
-    background-color: #f2f1f1;
-    margin: auto;
-
-}
-
-.center {
-align-items: end;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-gap: 25px;
-margin: 30px 0;
-}
-
-.center input{
-    margin: 0 30px;
+#buttonEnvio {
+    padding: 1rem;
+    cursor: pointer;
 }
 
 
 h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
-footer{
-   text-align: center;
-   gap: 70px;
+.footerBox {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    color: #ffffff;
 }
