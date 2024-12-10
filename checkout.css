@@ -233,3 +233,10 @@ ul {
     font-weight: bold;
     color: gray;
 }
+
+footer{
+    background-color: #ffcc25;
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+}
