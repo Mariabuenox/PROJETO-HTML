@@ -127,13 +127,6 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-footer {
-    background-color: #ffcc25;
-    text-align: center;
-    padding: 5px;
-    bottom: 0;
-}
-
 #cards {
     display: flex;
     justify-content: space-evenly;
@@ -180,6 +173,53 @@ footer {
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px #c6c6c6;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.ftop {
+    display: flex;
+    gap: 20px;
+    background-color: #ffcc25;
+    font-size: 1.5rem;
+    padding: 20px 15%;
+    flex-direction: row;
+}
+
+.fmeadle {}
+
+.foend {
+    background-color: #ffcc25;
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+}
+
+.ftop input{
+    height: 40px;
+    border: none;
+    border-radius: 0.8rem;
+}
+
+#buttonCadastrar {
+    cursor: pointer;
+    width: 20%;
+    background-color: #008cff;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 5px;
+    height: 50px;
+}
+
+#email {
+    padding: 5px;
+    width: 40%;
 }
 
 h4 {
